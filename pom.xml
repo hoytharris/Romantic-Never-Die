@@ -5,8 +5,12 @@
     <groupId>com.romantic.net</groupId>
     <artifactId>romantic</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>romantic-net</name>
     <description>romantic-net</description>
+    <modules>
+        <module>romantic-gateway</module>
+    </modules>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
