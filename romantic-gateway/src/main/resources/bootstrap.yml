@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: romantic-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${NACOS_SERVER_ADDR:localhost:8848}
+        namespace: e42cb270-574d-4fb1-ae46-95ee43021d41
+      config:
+        server-addr: ${NACOS_SERVER_ADDR:localhost:8848}
+        namespace: e42cb270-574d-4fb1-ae46-95ee43021d41
+        file-extension: yaml
